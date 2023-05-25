@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pinestilo.css">
+</head>
+
+<body>
+    <nav class="navbar-pinterest">
+
+
+        <a href="https://co.pinterest.com/"><img class="img-pinterest"
+                src="https://static.vecteezy.com/system/resources/previews/018/930/468/original/pinterest-logo-pinterest-transparent-free-png.png"
+                alt="logo-pinterest"></a>
+
+
+        <h2 class="Inicio">Inicio</h2>
+        <h2 class="hoy">Hoy</h2>
+        <h2 class="crear">Crear</h2>
+
+        <input type="text" class="finder">
+
+        <div class="notificaciones"><img class="notific" src="data:image/png;base64,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" alt="campana-de-notificaciones"></div>
+        <div class="message"><img class="mensage" src="data:image/png;base64,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" alt="logo-mensaje"></div>
+        <img class="profile-img" src="https://i.pinimg.com/75x75_RS/60/f4/e2/60f4e2ab93c02d84e866bb6528143dc8.jpg" alt="">
+
+    </nav>
+          <main class="content">
+            <div class="card-image">
+                <img class="img-pint" src="¡Goku!♡😍😍😍😍 _ Dragon ball gt, Fondos de pantallas cool de anime, Dibujos.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="« Yo No Soy Izuku » (BHNA _A_U Halo_).jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            
+            <div class="card-image">
+                <img class="img-pint" src="4f1f55c8-2126-408c-a763-24529bd764f2.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="5fb7e991-5f71-4b70-a816-78c455537ebd.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="6abdaab5-3346-4447-a031-46f8cb5a0813.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen1.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen2.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen3.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen4.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen6.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen7.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen8.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen9.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen10.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen11.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen12.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen13.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen14.png" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen15.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen16.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen17.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen18.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen19.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen20.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen21.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen22.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen23.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen24.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen25.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen26.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen27.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen28.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen29.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen30.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen31.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen32.png" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen33.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+            <div class="card-image">
+                <img class="img-pint" src="imagen19.jpg" alt="">
+                <div class="boton-guardar"><b>guardar</b></div>
+                <div class="boton-menu"><b>...</b></div>
+            </div>
+        </main>
+    
+
+</body>
+
+</html>
